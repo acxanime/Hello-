@@ -7,7 +7,7 @@ from os import environ
 class Config:
     API_ID = int(environ.get("API_ID", "28918271"))
     API_HASH = environ.get("API_HASH", "29bf447b916a795191046a91317869fb")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "8012124137:AAFMOk93G_oLfWbzySRoXAktx8XYu3SVf40") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://sitaratoons:sitaratoons@cluster0.98nq3.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
